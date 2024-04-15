@@ -11,7 +11,10 @@ function App() {
                 <img src={ShadCnLogo} className="h-20" alt="shadcn-logo" />
                 <img src={JsLogo} className="h-20" alt="javascript-logo" />
             </div>
-            <Button onClick="" className="animate-bounce">
+            <Button
+                onClick={() => (window.location.href = "https://twitter.com/harsh12codes")}
+                className="animate-bounce"
+            >
                 <div className="flex gap-1 justify-center items-center">
                     <img src={TwitterLogo} className="text-white w-6 h-6" alt="twitter-x-logo" />
                     <span className="font-mono">@harsh12codes</span>
